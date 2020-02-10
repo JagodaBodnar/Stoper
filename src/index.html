@@ -3,18 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <title>Timer!</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="sass/styles.scss">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <nav class="controls">
-      <a href="#" class="button1" id="start"><i class="fas fa-play"></i>Start</a>
-      <a href="#" class="button2" id="stop"><i class="fas fa-stop"></i>Stop</a>
-      <a href="#" class="button3" id="reset"><i class="fas fa-sync-alt"></i>Reset</a>
-    </nav>
-    <div class="stopwatch"></div>
-    <ul class="results"></ul>
+    <div id="app"></div>
+    <script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
     <script type="text/javascript" src="scripts/script-compiled.js"></script>
   </body>
 </html>
